@@ -20,7 +20,12 @@ And I love Python.
 
 Information technology is not a job. It's a lifestyle, it's when you learn what you like and what brings pleasure, always and everywhere.
 Now I am developing telegram bots in Python and studying everything related to the development of Django websites.
-[![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/ssinnerr)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KobetsDev&theme=tokyonight)
+
+Contact me [![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/ssinnerr) or kobets.dev@gmail.com
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -28,7 +33,3 @@ Now I am developing telegram bots in Python and studying everything related to t
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=dracula)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=dracula)
-![](https://raw.githubusercontent.com/KobetsDev/github-profile-summary-cards-example/master/profile-summary-card-output/dracula/0-profile-details.svg)
