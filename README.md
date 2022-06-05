@@ -29,5 +29,5 @@ Now I am developing telegram bots in Python and studying everything related to t
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=solarized_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=dracula)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=dracula)
