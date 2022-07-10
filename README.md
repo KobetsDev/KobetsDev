@@ -23,7 +23,7 @@ Now I am developing telegram bots in Python and studying everything related to t
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=tokyonight)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KobetsDev&theme=tokyonight)
+
 
 Contact me [![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/ssinnerr) or kobets.dev@gmail.com
 
