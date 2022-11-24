@@ -25,7 +25,7 @@ Now I am developing telegram bots in Python and studying everything related to t
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
 
 
-Contact me [![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/ssinnerr) or kobets.dev@gmail.com
+Contact me [![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/@Ya_Kobets) or kobets.dev@gmail.com
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
