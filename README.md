@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 And I love Python.
 
 Information technology is not a job. It's a lifestyle, it's when you learn what you like and what brings pleasure, always and everywhere.
-Now I am developing telegram bots in Python and studying everything related to the development of Django websites.
+Now I am developing telegram bots in Python and studying everything related to the development of React websites.
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=tokyonight)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
