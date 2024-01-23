@@ -15,11 +15,8 @@ Here are some ideas to get you started:
 <h1 align="center">Hi there, I'm <a href="https://github.com/KobetsDev/" target="_blank">ᴀʟᴇxᴀɴᴅᴇʀ</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
-
-And I love Python.
-
 Information technology is not a job. It's a lifestyle, it's when you learn what you like and what brings pleasure, always and everywhere.
-Now I am developing telegram bots in Python and studying everything related to the development of React websites.
+Now I work as a frontend developer and in my free time I develop my pet projects in python
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=tokyonight)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
