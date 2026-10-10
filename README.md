@@ -1,33 +1,56 @@
-<!--
-**KobetsDev/KobetsDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Alexander — frontend developer. Interfaces, tools, and ideas made real." />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://t.me/Ya_Kobets"><strong>Telegram ↗</strong></a>
+  &nbsp; · &nbsp;
+  <a href="mailto:kobets.dev@gmail.com"><strong>Email ↗</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/KobetsDev?tab=repositories"><strong>All projects ↗</strong></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<h1 align="center">Hi there, I'm <a href="https://github.com/KobetsDev/" target="_blank">ᴀʟᴇxᴀɴᴅᴇʀ</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+### Hey, I'm Alexander.
 
-Information technology is not a job. It's a lifestyle, it's when you learn what you like and what brings pleasure, always and everywhere.
-Now I work as a frontend developer and in my free time I develop my pet projects in python
+I'm a **frontend developer** based in Sochi, Russia. I work with **React and TypeScript**, and build Python tools and Telegram bots on the side. I like turning everyday problems into software I can actually use — from managing runtime configuration to restoring an offloaded iPhone app.
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KobetsDev&theme=tokyonight)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KobetsDev&theme=tokyonight)
+### Selected projects
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/KobetsDev/toggle-sdk">toggle-sdk ↗</a></h3>
+      <p>A typed runtime configuration client with caching, TTL, and request deduplication. Includes a React demo for exploring request and error scenarios.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Vite</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/KobetsDev/ipa-restore">ipa-restore ↗</a></h3>
+      <p>A Python CLI for restoring offloaded iPhone apps: find an app, download its IPA, install over USB, and verify the installed version.</p>
+      <p><code>Python</code> <code>CLI</code> <code>iOS tooling</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/KobetsDev/text_to_paper_bot">text_to_paper_bot ↗</a></h3>
+      <p>A Telegram bot that turns text into handwritten-style pages. A college note-taking problem turned into an experiment with text and image rendering.</p>
+      <p><code>Python</code> <code>Pillow</code> <code>Telegram</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/KobetsDev/aiogram_calendar_with_time">Calendar + time picker ↗</a></h3>
+      <p>An inline date and time picker for Telegram bots, extending <a href="https://github.com/noXplode/aiogram_calendar">aiogram_calendar</a> with time selection.</p>
+      <p><code>Python</code> <code>aiogram</code> <code>Telegram</code></p>
+    </td>
+  </tr>
+</table>
 
-Contact me [![Telegram](https://img.shields.io/badge/Telegram-blue?style=flat-square&logo=Telegram)](https://t.me/@Ya_Kobets) or kobets.dev@gmail.com
+### My toolbox
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+| Area | Technologies |
+| :--- | :--- |
+| **Frontend** | React · TypeScript · JavaScript · Next.js · Vite |
+| **Backend & automation** | Python · Django · Node.js · Express · Telegram Bot API |
+| **Environment** | Git · Linux |
+
+---
+
+Have an interesting frontend challenge or a useful tool in mind? **[Let's talk on Telegram.](https://t.me/Ya_Kobets)**
