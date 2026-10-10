@@ -1,0 +1,61 @@
+name: Refresh profile widgets
+
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile.yml'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=KobetsDev&show_icons=true&hide_rank=true&hide=issues,contribs&show=prs_merged&bg_color=0b1020&title_color=9d8dff&text_color=c9d4f2&icon_color=5ce1e6&border_color=263453&border_radius=16&custom_title=Open%20source%20telemetry&card_width=495
+          path: assets/generated/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Generate language mix
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=KobetsDev&layout=compact&langs_count=6&bg_color=0b1020&title_color=5ce1e6&text_color=c9d4f2&border_color=263453&border_radius=16&card_width=495&custom_title=Public%20code%20languages&exclude_repo=KobetsDev,github-profile-summary-cards-example,nvim-config&hide=Jupyter%20Notebook
+          path: assets/generated/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: KobetsDev
+          outputs: |
+            assets/generated/snake.svg?color_snake=#9d8dff&color_dots=#e8edf5,#b4e9e8,#6fd8dc,#3eabc5,#7760dd
+            assets/generated/snake-dark.svg?palette=github-dark&color_snake=#5ce1e6&color_dots=#161e32,#303263,#514691,#7965c5,#b49bff
+      - name: Update project cards and activity skyline
+        run: python3 scripts/render_profile.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save generated widgets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh profile widgets [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
