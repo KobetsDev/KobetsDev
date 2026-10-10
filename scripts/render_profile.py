@@ -64,9 +64,10 @@ def project_cards(repos):
     for repo,num,title,desc,stack,color,kind in PROJECTS:
         r=lookup[repo]
         c=txt(26,35,f'PROJECT / {num}',12,color,700,'class="mono" letter-spacing="2"')+txt(554,38,'↗',25,color,400,'text-anchor="end"')
-        c+=txt(26,75,repo if len(repo)<24 else 'calendar + time picker',24,WHITE,700)
+        c+=txt(26,75,repo if len(repo)<24 else 'calendar + time picker',28,WHITE,700)
         c+=txt(26,104,title,17,color,700)
-        for i,line in enumerate(textwrap.wrap(desc,53)): c+=txt(26,140+i*22,line,16,MUTED)
+        for i,line in enumerate(textwrap.wrap(desc,43)): c+=txt(26,140+i*25,line,21,MUTED)
+        c+='<g transform="translate(0 20)">'
         c+=rect(26,192,528,77,'#101b30',10,'stroke="#263453"')
         if kind=='config':
             for i,label in enumerate(['REQUEST','CACHE','CONFIG']):
@@ -83,10 +84,11 @@ def project_cards(repos):
         else:
             for i in range(7): c+=rect(44+i*31,212,22,28,color if i==4 else '#23314b',5,'class="pulse"' if i==4 else '')
             c+=txt(325,238,'14 : 30',29,color,700,'class="mono"')
-        c+=txt(26,300,stack,13,color,700,'class="mono"')
-        c+=txt(554,328,'PUSHED '+r['pushed_at'][:10],11,MUTED,400,'class="mono" text-anchor="end"')
-        c+=txt(26,328,f"★ {r['stargazers_count']}  /  FORKS {r['forks_count']}",11,MUTED,400,'class="mono"')
-        svg(f'project-{repo}.svg',580,348,c,f'{repo}. {desc} {stack}. Public repository metadata updated {TODAY}.')
+        c+='</g>'
+        c+=txt(26,325,stack,16,color,700,'class="mono"')
+        c+=txt(554,357,'PUSHED '+r['pushed_at'][:10],11,MUTED,400,'class="mono" text-anchor="end"')
+        c+=txt(26,357,f"★ {r['stargazers_count']}  /  FORKS {r['forks_count']}",11,MUTED,400,'class="mono"')
+        svg(f'project-{repo}.svg',580,380,c,f'{repo}. {desc} {stack}. Public repository metadata updated {TODAY}.')
 
 class Calendar(HTMLParser):
     def __init__(self):
